@@ -1,2 +1,6 @@
 # Hamburgueria
-Site one page de uma Hamburgueria ficticío
+
+![GitHub License](https://img.shields.io/github/license/lucasoliveira0309/Hamburgueria?style=for-the-badge)
+
+## Autor
+Lucas de Oliveira
