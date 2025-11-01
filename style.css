@@ -1,0 +1,148 @@
+/*layout >>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Váriaveis */
+:root {
+    --Marrom: #3e2723;
+    --Preto: #000000;
+    --Vermelho: #861501;
+    --Branco: #ffffff;
+    --MarromCabeçalho: #3e1111;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif", serif;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Fim - Layout <<<<<<<<<<<<<<<<< */
+
+/* Smartphone Portrait >>>>>>>>>>>>>>>>> */
+
+/* Cabeçalho */
+header {
+    background-color: var(--MarromCabeçalho);
+    height: 55px;
+}
+
+#logo img {
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#check {
+    display: none;
+}
+
+label {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 2rem;
+    position: fixed;
+    right: 15px;
+    top: 3px;
+}
+
+nav ul {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 55px;
+    right: -55%;
+    width: 55%;
+    transition: all 0.5s;
+}
+
+/* açâo para a caixa checkbox */
+/* quando selecionado mudar propriedades ul */
+
+#check:checked~ul {
+    right: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+    text-align: right;
+    border: 1px solid var(--Branco);
+    text-align: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--Branco)
+}
+
+/* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
+
+/* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+
+    /* Layout */
+    .container {
+        max-width: 540px;
+    }
+
+    /*Cabeçalho*/
+    nav ul {
+        width: 40%;
+        height: -40%;
+    }
+}
+
+/* Fim - Smartphone Landscape <<<<<<<<<<<<<<<<<< */
+
+/* Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+
+    /* Layout */
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* Tablet Portrait <<<<<<<<<<<<<<<<<< */
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+
+    /* Layout */
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* Tablet Landscape <<<<<<<<<<<<<<<<<< */
+
+/* Notebook/Pc >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+
+    /* Layout */
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Notebook/Pc <<<<<<<<<<<<<<<<<< */
+
+/* Full HD/4K >>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1400px) {
+
+    /* Layout */
+    .container {
+        max-width: 1320px;
+    }
+}
+
+/* Full HD/4K <<<<<<<<<<<<<<<<<< */
