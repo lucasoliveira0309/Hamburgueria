@@ -6,4 +6,4 @@ One page Hamburgueria Brasa & Fogo (FICTICÍO)
 Lucas de Oliveira
 
 ## Acessar o Site
-![](./img/qrcode.png)
+![](./img/qrcode)
