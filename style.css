@@ -131,7 +131,38 @@ nav ul li a {
     /* Layout */
     .container {
         max-width: 1140px;
+        justify-content: space-between;
     }
+    /*cabeçalho*/
+    header {
+        height: 100px;
+    }
+    #logo img {
+        height: 100px;
+        width: 100px;
+        margin-top: 45px;
+    }
+    label {
+        display: none;
+    }
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: 17px;
+    }
+    nav ul li {
+        border: 0;
+        float: left;
+    }
+    nav ul li a {
+         font-size: 20px;
+    }
+    nav ul li a:hover {
+        color: gold;
+    }
+    
 }
 
 /* Notebook/Pc <<<<<<<<<<<<<<<<<< */
