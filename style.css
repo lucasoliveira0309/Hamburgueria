@@ -47,7 +47,7 @@ header {
 }
 
 label {
-    color: rgba(0, 0, 0, 0.75);
+    color: rgba(250, 250, 250, 0.85);
     font-size: 2rem;
     position: fixed;
     right: 15px;
