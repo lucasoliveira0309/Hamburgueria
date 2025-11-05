@@ -178,9 +178,10 @@ main h2 {
     main h2 {
         font-size: 1.60rem
     }
+
     .btn {
-         padding: 15px 35px;
-         font-size: 2rem;
+        padding: 15px 35px;
+        font-size: 2rem;
     }
 
 }
@@ -193,6 +194,32 @@ main h2 {
     /* Layout */
     .container {
         max-width: 960px;
+        justify-content: space-between;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav ul {
+        position: static;
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        margin-top: -2px;
+    }
+
+    nav ul li {
+        border: 0;
+        float: left;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    nav ul li a:hover {
+        color: gold;
     }
 }
 
@@ -259,9 +286,11 @@ main h2 {
     .container {
         max-width: 1320px;
     }
+
     main h1 {
         font-size: 6rem;
     }
+
     main h2 {
         font-size: 3rem;
     }
