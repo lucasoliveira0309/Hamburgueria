@@ -147,7 +147,7 @@ main h2 {
 }
 #hero img {
     width: 300px;
-    height: 400px;
+    height: 450px;
 }
 
 #hero-text h2 {
@@ -163,7 +163,7 @@ main h2 {
 
 .topics p {
     margin-left: 15px;
-    color: var(--Laranja);
+    color: red;
     font-size: 13px;
 }
 
