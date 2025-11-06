@@ -7,6 +7,7 @@
     --Vermelho: #861501;
     --Branco: #ffffff;
     --MarromCabeçalho: #3e1111;
+    --Laranja: #905100;
 }
 
 /* CSS Reset */
@@ -127,6 +128,56 @@ main h2 {
     margin-bottom: 30px;
 
 }
+
+/* Destaque */
+#destaque {
+    padding: 10px 10px;
+    background: url(img/backgrounde.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#destaque .container {
+    flex-direction: column;
+}
+
+#hero {
+    text-align: center;
+}
+#hero img {
+    width: 300px;
+    height: 400px;
+}
+
+#hero-text h2 {
+    margin-bottom: 15px;
+    margin-top: -20px;
+}
+
+.topics {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.topics p {
+    margin-left: 15px;
+    color: var(--Laranja);
+    font-size: 13px;
+}
+
+#hero-text h2 {
+    color: red;
+    text-align: center;
+}
+
+#hero-text p {
+    font-size: 13px;
+    color:  var(--Branco);
+}
+
+
 
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
