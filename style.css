@@ -135,7 +135,7 @@ main h2 {
     background: url(img/backgrounde.jpg);
     background-size: cover;
     background-position: center;
-    
+
 }
 
 #destaque .container {
@@ -145,6 +145,7 @@ main h2 {
 #hero {
     text-align: center;
 }
+
 #hero img {
     width: 300px;
     height: 450px;
@@ -174,11 +175,33 @@ main h2 {
 
 #hero-text p {
     font-size: 13px;
-    color:  var(--Branco);
+    color: var(--Branco);
 }
 
+#sobre .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
 
+#texto h2 {
+    color: red;
+    padding: 10px 5px 10px;
+    text-align: center;
+}
 
+#texto p {
+    padding: 10px;
+    font-size: 20px;
+    color: var(--MarromCabeçalho);
+}
+
+#sobre iframe {
+    width: 370px;
+    padding: 10px 10px 10px 10px;
+    
+}
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>> */
@@ -209,6 +232,38 @@ main h2 {
     main h2 {
         font-size: 1.30rem;
     }
+
+    /* Destaque */
+    #destaque {
+        padding: 50px 0px;
+    }
+
+    #destaque .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #hero {
+        text-align: left;
+    }
+
+    #hero img {
+        width: 200px;
+        height: 300px;
+        margin: 0px 50px 0px 0px;
+    }
+
+    .topics {
+        display: none;
+    }
+
+    #sobre iframe {
+        width: 560px;
+    }
+    #texto h2 {
+        font-size: 30px;
+    }
+    
 }
 
 /* Fim - Smartphone Landscape <<<<<<<<<<<<<<<<<< */
@@ -233,6 +288,15 @@ main h2 {
     .btn {
         padding: 15px 35px;
         font-size: 2rem;
+    }
+    #texto h2 {
+        font-size: 50px;
+    }
+    #texto p {
+        font-size: 30px;
+    }
+    #sobre iframe {
+        width: 700px;
     }
 
 }
@@ -271,6 +335,11 @@ main h2 {
 
     nav ul li a:hover {
         color: gold;
+    }
+
+    #sobre iframe {
+        width: 960px;
+        height: 500px;
     }
 }
 
@@ -326,6 +395,62 @@ main h2 {
         height: 80vh;
     }
 
+    /* Destaque */
+    #destaque {
+        background-attachment: fixed;
+        /*efeito paralax */
+
+    }
+
+    #destaque .container {
+        flex-direction: row;
+    }
+
+    #hero img {
+        width: 400px;
+        height: 580px;
+    }
+
+    .topics {
+        display: flex;
+    }
+
+    #hero-text h2 {
+        font-size: 50px;
+    }
+
+    #hero-text p {
+        font-size: 20px;
+    }
+
+     #sobre .container {
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+
+    #sobre #texto {
+        max-width: 55%;
+        font-size: 90px;
+    }
+
+    #sobre iframe {
+        max-width: 860px;
+        height: 400px;
+    }
+
+    #sobre p {
+        font-size: 25px;
+        padding-right: 50px;
+        font-family: "open sans";
+        color: var(--MarromCabeçalho);
+    }
+    #sobre h2 {
+        font-size: 50px;
+        text-align: left;
+        margin-top: -80px;
+    }
 }
 
 /* Notebook/Pc <<<<<<<<<<<<<<<<<< */
