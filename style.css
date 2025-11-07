@@ -89,7 +89,7 @@ nav ul li {
     list-style: none;
     padding: 20px;
     text-align: right;
-    border: 1px solid var(--Branco);
+    border-bottom: 1px solid var(--Branco);
     text-align: left;
 }
 
@@ -386,6 +386,10 @@ main h2 {
     display: none;
 }
 
+    #sobre iframe {
+        height: 400px;
+        margin-bottom: 30px;
+    }
 }
 
 /* Tablet Portrait <<<<<<<<<<<<<<<<<< */
@@ -532,6 +536,8 @@ main h2 {
     #sobre iframe {
         max-width: 860px;
         height: 400px;
+        margin-bottom: 20px;
+        padding-bottom: 30px;
     }
 
     #sobre p {
