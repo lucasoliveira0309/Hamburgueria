@@ -118,6 +118,15 @@ main h1 {
     color: red;
     font-family: 'PT Serif';
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(255, 0, 0, 0.849), 0px 15px 15px rgb(255, 0, 0), 0px 20px 20px rgb(255, 0, 0);
+    text-shadow:
+        -1px -1px 0px #fff,
+        /* canto superior esquerdo */
+        1px -1px 0px #fff,
+        /* canto superior direito */
+        -1px 1px 0px #fff,
+        /* canto inferior esquerdo */
+        1px 1px 0px #fff;
+    /* canto inferior direito */
 
 }
 
@@ -136,6 +145,18 @@ main h2 {
     background-size: cover;
     background-position: center;
 
+}
+
+#destaque h2 {
+    text-shadow:
+        -1px -1px 0px #fff,
+        /* canto superior esquerdo */
+        1px -1px 0px #fff,
+        /* canto superior direito */
+        -1px 1px 0px #fff,
+        /* canto inferior esquerdo */
+        1px 1px 0px #fff;
+    /* canto inferior direito */
 }
 
 #destaque .container {
@@ -189,6 +210,15 @@ main h2 {
     color: red;
     padding: 10px 5px 10px;
     text-align: center;
+    text-shadow:
+        -2px -2px 0px #fff,
+        /* canto superior esquerdo */
+        2px -2px 0px #fff,
+        /* canto superior direito */
+        -2px 2px 0px #fff,
+        /* canto inferior esquerdo */
+        2px 2px 0px #fff;
+    /* canto inferior direito */
 }
 
 #texto p {
@@ -252,6 +282,7 @@ main h2 {
     margin: 30px auto 0 auto;
     width: auto;
     max-width: fit-content;
+
 }
 
 #cardapio img {
@@ -317,13 +348,9 @@ main h2 {
         width: 560px;
     }
 
-    #texto h2 {
-        font-size: 30px;
-    }
-
     #cardapio img {
-    display: none;
-}
+        display: none;
+    }
 }
 
 /* Fim - Smartphone Landscape <<<<<<<<<<<<<<<<<< */
@@ -383,8 +410,8 @@ main h2 {
     }
 
     #cardapio img {
-    display: none;
-}
+        display: none;
+    }
 
     #sobre iframe {
         height: 400px;
@@ -432,9 +459,10 @@ main h2 {
         width: 960px;
         height: 500px;
     }
+
     #cardapio img {
-    display: none;
-}
+        display: none;
+    }
 }
 
 /* Tablet Landscape <<<<<<<<<<<<<<<<<< */
@@ -588,7 +616,8 @@ main h2 {
         background-size: cover;
         background-position: left;
         background-attachment: fixed;
-        height: 60vh;
+        height: 50vh;
+
     }
 
 }
