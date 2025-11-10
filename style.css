@@ -620,6 +620,11 @@ main h2 {
 
     }
 
+    #lanches img {
+        height: 264px;
+        width: 337;
+    }
+
 }
 
 /* Notebook/Pc <<<<<<<<<<<<<<<<<< */
