@@ -38,6 +38,39 @@ body {
 
 }
 
+/*Cartâo*/
+.card {
+    width: 341px;
+    height: 520px;
+    background-color: var(--Marrom);
+    margin-bottom: 25px;
+    border-radius: 2px solid var(--Laranja);
+    text-align: center;
+    border-radius: 25px;
+
+}
+
+
+.card img {
+    border-radius: 25px 25px 0px 0px;
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    color: red;
+    margin: 15px 0px;
+}
+
+.card p {
+    color: var(--Branco);
+    padding: 0px 15px 30px 15px;
+}
+
+.card h3 {
+    margin-bottom: 30px;
+    color: var(--Laranja);
+    font-size: 22px;
+}
 
 /* Fim - Layout <<<<<<<<<<<<<<<<< */
 
@@ -265,7 +298,6 @@ main h2 {
 #titulo #p {
     text-align: center;
 
-
 }
 
 #titulo .btn2 {
@@ -289,6 +321,25 @@ main h2 {
     display: none;
 }
 
+#lanches .container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+#lanches .btn {
+    font-size: 25px;
+    align-items: center;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card h2 {
+    font-size: 25px;
+}
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>> */
@@ -351,6 +402,13 @@ main h2 {
     #cardapio img {
         display: none;
     }
+
+    /*LANCHES*/
+    #lanches {
+        background-color: var(--Branco);
+        padding: 50px 0px;
+    }
+
 }
 
 /* Fim - Smartphone Landscape <<<<<<<<<<<<<<<<<< */
@@ -462,6 +520,16 @@ main h2 {
 
     #cardapio img {
         display: none;
+    }
+
+    /* Cartões*/
+    #lanches .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin-right: 25px;
     }
 }
 
@@ -617,13 +685,9 @@ main h2 {
         background-position: left;
         background-attachment: fixed;
         height: 50vh;
-
     }
 
-    #lanches img {
-        height: 264px;
-        width: 337;
-    }
+
 
 }
 
