@@ -72,6 +72,17 @@ body {
     font-size: 22px;
 }
 
+/*topo do site */
+#topo {
+    position: fixed;
+    right: 15px;
+    bottom: 10px;
+}
+
+/* Scroll suave */
+html {
+    scroll-behavior: smooth;
+}
 /* Fim - Layout <<<<<<<<<<<<<<<<< */
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>> */
@@ -340,6 +351,29 @@ main h2 {
 .card h2 {
     font-size: 25px;
 }
+
+#contato .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #444444;
+    color: var(--Branco);
+    padding-top: 30px;
+}
+
+#contato iframe {
+    display: none;
+}
+
+#contato .container {
+    padding-left: 20px;
+}
+
+#contato p {
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
 /* Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>> */
