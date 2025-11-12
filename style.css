@@ -83,6 +83,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
 /* Fim - Layout <<<<<<<<<<<<<<<<< */
 
 /* Smartphone Portrait >>>>>>>>>>>>>>>>> */
@@ -288,8 +289,6 @@ main h2 {
     background: url(img/backgrounde.jpg);
     background-size: cover;
     background-position: left;
-
-
 }
 
 #titulo h2 {
@@ -354,25 +353,42 @@ main h2 {
 
 #contato .container {
     display: flex;
-    flex-direction: column;
-    background-color: #444444;
     color: var(--Branco);
     padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
 }
+
+#contato {
+    background-color: #444;
+}
+
 
 #contato iframe {
     display: none;
 }
 
-#contato .container {
-    padding-left: 20px;
-}
-
 #contato p {
-    padding-bottom: 20px;
     font-size: 18px;
+    font-family: "open sans";
 }
 
+.contato #email {
+    font-size: 15px;
+}
+
+#imgemail {
+    padding-top: 10px;
+}
+
+#mapa {
+    padding-top: 10px;
+}
+
+#contato .hora {
+    display: none;
+}
+    
 
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
@@ -443,6 +459,14 @@ main h2 {
         padding: 50px 0px;
     }
 
+    #contato .container {
+        padding: 20px 600px 0px 0px;
+        padding-bottom: 37px;
+    }
+
+    #email {
+        padding-top: 8px;
+    }
 }
 
 /* Fim - Smartphone Landscape <<<<<<<<<<<<<<<<<< */
@@ -508,6 +532,28 @@ main h2 {
     #sobre iframe {
         height: 400px;
         margin-bottom: 30px;
+    }
+
+    #contato p {
+        font-size: 35px;
+    }
+
+    #contato img {
+        width: 60px;
+        height: 60px;
+    }
+
+    #whatsapp {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #mapa {
+        margin-top: 13px;
+    }
+
+    #imgemail {
+        margin-top: 20px;
     }
 }
 
@@ -720,8 +766,67 @@ main h2 {
         background-attachment: fixed;
         height: 50vh;
     }
+   
+  #contato {
+  background-color: #444;
+  color: #fff;
+  padding: 60px 0;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 30px;
+}
 
+#contato .contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 140px;
+  
+}
 
+#contato iframe {
+  display: flex;
+}
+
+#contato .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+#contato .item {
+  display: flex;
+  align-items: center;
+  
+}
+
+#contato .item img {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+
+#contato .item p {
+  font-size: 23px;
+}
+
+#contato .hora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 60px;
+    margin-bottom: 26px;
+    
+}
+#contato .hora h2 {
+    font-size: 32px;
+    padding-bottom: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contato .hora p {
+    font-size: 23px;
+}
 
 }
 
