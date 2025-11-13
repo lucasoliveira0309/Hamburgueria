@@ -187,7 +187,7 @@ main h2 {
 /* Destaque */
 #destaque {
     padding: 10px 20px;
-    background: url(img/backgrounde.jpg);
+    background: url(img/backgrounde-min-min.jpg);
     background-size: cover;
     background-position: center;
 
@@ -297,7 +297,7 @@ main h2 {
 
 #cardapio {
     padding: 10px 20px;
-    background: url(img/backgrounde.jpg);
+    background: url(img/backgrounde-min-min.jpg);
     background-size: cover;
     background-position: left;
 }
