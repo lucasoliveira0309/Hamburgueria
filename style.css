@@ -98,7 +98,7 @@ header {
     width: 55px;
     height: 55px;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 #check {
@@ -162,6 +162,7 @@ main .container {
 main h1 {
     color: red;
     font-family: 'PT Serif';
+    font-size: 46px;
     text-shadow: 0px 5px 10px var(--preto), 0px 10px 10px rgba(255, 0, 0, 0.849), 0px 15px 15px rgb(255, 0, 0), 0px 20px 20px rgb(255, 0, 0);
     text-shadow:
         -1px -1px 0px #fff,
@@ -186,7 +187,7 @@ main h2 {
 /* Destaque */
 #destaque {
     padding: 10px 20px;
-    background: url(img/backgrounde.jpg);
+    background: url(img/backgrounde-min-min.jpg);
     background-size: cover;
     background-position: center;
 
@@ -202,6 +203,7 @@ main h2 {
         /* canto inferior esquerdo */
         1px 1px 0px #fff;
     /* canto inferior direito */
+    font-size: 30px;
 }
 
 #destaque .container {
@@ -234,13 +236,17 @@ main h2 {
     font-size: 16px;
 }
 
+#destaque .container {
+    margin-bottom: 30px;
+    margin-top: -50px;
+}
 #hero-text h2 {
     color: red;
     text-align: center;
 }
 
 #hero-text p {
-    font-size: 13px;
+    font-size: 16px;
     color: var(--Branco);
 }
 
@@ -248,7 +254,7 @@ main h2 {
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    margin-bottom: 15px;
 }
 
 #texto h2 {
@@ -272,9 +278,14 @@ main h2 {
     color: var(--MarromCabeçalho);
 }
 
+#sobre h2 {
+    font-size: 30px;
+}
+
 #sobre iframe {
     width: 370px;
     padding: 10px 10px 10px 10px;
+    border: none;
 
 }
 
@@ -286,7 +297,7 @@ main h2 {
 
 #cardapio {
     padding: 10px 20px;
-    background: url(img/backgrounde.jpg);
+    background: url(img/backgrounde-min-min.jpg);
     background-size: cover;
     background-position: left;
 }
@@ -300,7 +311,7 @@ main h2 {
 
 #titulo p {
     color: var(--Branco);
-    font-size: 17px;
+    font-size: 19px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
 }
@@ -375,6 +386,7 @@ main h2 {
 
 .contato #email {
     font-size: 15px;
+    padding-top: 10px;
 }
 
 #imgemail {
@@ -388,7 +400,32 @@ main h2 {
 #contato .hora {
     display: none;
 }
+    
+footer {
+    display: flex;
+    background-color: rgb(49, 49, 49);
+    padding-bottom: 65px;
+    flex-direction: column;
+}
 
+footer .container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: -55px;
+}
+
+footer .icones {
+    display: flex;
+    padding-top: 20px;
+    gap: 10px;
+
+}
+
+footer #mensagem {
+    padding-top: 20px;
+    color: var(--Branco);
+}
 
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
@@ -493,12 +530,18 @@ main h2 {
         font-size: 2rem;
     }
 
+    #destaque h2 {
+        font-size: 40px;
+    }
+    #destaque p {
+        font-size: 20px;
+    }
     #texto h2 {
         font-size: 50px;
     }
 
     #texto p {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     #sobre iframe {
@@ -554,6 +597,12 @@ main h2 {
 
     #imgemail {
         margin-top: 20px;
+    }
+    .icones img {
+        height: 60px;
+    }
+    #mensagem {
+        font-size: 23px;
     }
 }
 
@@ -766,70 +815,96 @@ main h2 {
         background-attachment: fixed;
         height: 50vh;
     }
+   
+  #contato {
+  background-color: #444;
+  color: #fff;
+  padding: 60px 0;
+  font-family: "Open Sans", sans-serif;
+  
+}
 
-    #contato {
-        background-color: #444;
-        color: #fff;
-        padding: 60px 0;
-        font-family: "Open Sans", sans-serif;
-        margin-bottom: 30px;
-    }
+#contato .contato {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 140px;
+  
+}
 
-    #contato .contato {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-left: 140px;
+#contato iframe {
+  display: flex;
+}
 
-    }
+#contato .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 80px;
+}
 
-    #contato iframe {
-        display: flex;
-    }
+#contato .item {
+  display: flex;
+  align-items: center;
+  
+}
 
-    #contato .info {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 80px;
-    }
+#contato .item img {
+  width: 40px;
+  height: 50px;
+  margin: 10px;
+}
 
-    #contato .item {
-        display: flex;
-        align-items: center;
+#contato .item p {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
 
-    }
+#contato .hora {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding-left: 60px;
+    margin-bottom: 26px;
+    
+}
+#contato .hora h2 {
+    font-size: 32px;
+    padding-bottom: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contato .hora p {
+    font-size: 23px;
+}
 
-    #contato .item img {
-        width: 40px;
-        height: 40px;
-        margin: 10px;
-    }
 
-    #contato .item p {
-        font-size: 23px;
-    }
+footer {
+    display:block;
+    padding-bottom: 0px;
+}
 
-    #contato .hora {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: left;
-        padding-left: 60px;
-        margin-bottom: 26px;
+footer .container {
+    flex-direction: row;
+    padding-top: 0px;
+}
 
-    }
+footer #mensagem {
+    padding-top: 60px;
+    margin-left: 100px;
+    font-size: 22px;
+}
 
-    #contato .hora h2 {
-        font-size: 32px;
-        padding-bottom: 12px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+.icones img {
+    height: 48px;
+    width: 60px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
 
-    #contato .hora p {
-        font-size: 23px;
-    }
-
+.container #mensagem {
+    padding-bottom: 60px;
+}
 }
 
 /* Notebook/Pc <<<<<<<<<<<<<<<<<< */
