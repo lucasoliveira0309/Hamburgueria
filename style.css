@@ -404,7 +404,7 @@ main h2 {
 footer {
     display: flex;
     background-color: rgb(49, 49, 49);
-    padding-bottom: 50px;
+    padding-bottom: 65px;
     flex-direction: column;
 }
 
