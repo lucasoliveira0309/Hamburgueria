@@ -285,6 +285,7 @@ main h2 {
 #sobre iframe {
     width: 370px;
     padding: 10px 10px 10px 10px;
+    border: none;
 
 }
 
