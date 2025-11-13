@@ -388,7 +388,7 @@ main h2 {
 #contato .hora {
     display: none;
 }
-    
+
 
 /* Fim - Smartphone Portrait <<<<<<<<<<<<<<<< */
 
@@ -766,67 +766,69 @@ main h2 {
         background-attachment: fixed;
         height: 50vh;
     }
-   
-  #contato {
-  background-color: #444;
-  color: #fff;
-  padding: 60px 0;
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 30px;
-}
 
-#contato .contato {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-left: 140px;
-  
-}
+    #contato {
+        background-color: #444;
+        color: #fff;
+        padding: 60px 0;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 30px;
+    }
 
-#contato iframe {
-  display: flex;
-}
+    #contato .contato {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 140px;
 
-#contato .info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 80px;
-}
+    }
 
-#contato .item {
-  display: flex;
-  align-items: center;
-  
-}
+    #contato iframe {
+        display: flex;
+    }
 
-#contato .item img {
-  width: 40px;
-  height: 40px;
-  margin: 10px;
-}
+    #contato .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 80px;
+    }
 
-#contato .item p {
-  font-size: 23px;
-}
+    #contato .item {
+        display: flex;
+        align-items: center;
 
-#contato .hora {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    padding-left: 60px;
-    margin-bottom: 26px;
-    
-}
-#contato .hora h2 {
-    font-size: 32px;
-    padding-bottom: 12px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-#contato .hora p {
-    font-size: 23px;
-}
+    }
+
+    #contato .item img {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    #contato .item p {
+        font-size: 23px;
+    }
+
+    #contato .hora {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+        padding-left: 60px;
+        margin-bottom: 26px;
+
+    }
+
+    #contato .hora h2 {
+        font-size: 32px;
+        padding-bottom: 12px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #contato .hora p {
+        font-size: 23px;
+    }
 
 }
 
